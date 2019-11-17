@@ -1,0 +1,313 @@
+/*
+.container
+    {
+        background-color: white;
+        margin: 0px 100px !important;
+        padding: 0 !important;
+    }
+*/
+body{
+    padding: 
+}
+
+
+.header
+    {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        height: 100px;
+        padding: 48px 0px 25px 0px;
+        letter-spacing: .5px;
+        color: #000;
+        text-decoration: none;
+    }
+
+
+
+.header a 
+    {
+        color: black;
+        text-decoration: none
+    }
+    .header a:hover
+        {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.50);
+        }
+
+
+/* .data
+    {
+        margin-right: 60px;
+    }
+*/
+
+.Mobile_dp
+{
+    display: none;
+    
+}
+.col-sm-7
+    {
+        padding: 0px !important;
+    }
+
+
+.mnheading
+    {
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        margin-top: 75px;
+    }
+
+
+
+.subhding
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        color: #177FF8;
+        margin-top: 32px;
+        font-weight: 400;
+    }
+
+
+.about
+    {
+        margin-top: 32px;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 0.34px;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.65);
+        font-weight: 100;
+        line-height: 2;
+    }
+    
+
+    .about a
+    {
+      color: rgba(0, 0, 0, 0.65);
+    }
+
+    
+
+    .about a:hover
+    {
+        color: black;
+    }
+
+   
+
+    .about span
+    {
+        color: black;
+    }
+
+
+.buttons
+    {
+        margin-top: 48px;
+        display: flex;
+        flex: 1;
+    }
+
+.mailbtn
+    {
+        background-color: #177FF8;
+        padding: 12px 16px;
+        border-radius: 3px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+.mail a:hover
+    {
+        text-decoration: none;
+        color: white;
+        background-color: #0878fc;
+        box-shadow: 0 1px 1px 0 rgba(23,127,248,0.3), 0 1px 3px 1px rgba(23,127,248,0.3);
+    }
+
+
+.mailbtn:focus
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+
+.resumebtn
+    {
+        background-color: #fff;
+        padding: 12px 16px;
+        border-radius: 3px;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+.resume a:hover
+    {
+        text-decoration: none;
+        color: black;
+        background-color: rgba(0, 0, 0, 0.05);
+
+    }
+
+
+
+.resume a:focus
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+.socialmedia
+{
+    margin-top: 80px;
+    
+}
+
+.socialmedia ul
+{
+    padding: 0px;
+    
+    
+}
+.socialmedia li
+    {
+        display: inline-block;
+        font-size: 24px;
+        padding: 10px;
+        margin-right: 16px;
+        border-radius: 50%;
+    }
+
+
+
+.socialmedia li:hover
+    {
+        color: #0076ff;
+        background-color: rgba(23, 127, 248, 0.1);
+        border-radius: 50%;
+        
+    }
+
+
+.socialmedia a
+    {
+        color: rgba(0, 0, 0, .6);
+    }
+
+.socialmedia a:hover
+    {
+        color: #0076ff;
+    }
+
+.DP
+    {
+        height: 100%;
+    }
+
+
+/*Responsive Design Section*/
+
+@media only screen and (min-width: 320px) and (max-width: 768px)
+{
+    .header
+    {
+        padding: 32px 0;
+    }
+    
+    .DP
+    {
+        display: none;
+    }
+    
+    .col-sm-7
+    {
+        width: 100% !important;
+        text-align: center;
+    }
+    .mnheading
+    {
+        margin-top: 48px;
+    }
+    .buttons
+    {
+        justify-content: center;
+    }
+    
+    .Mobile_dp
+    {
+        display: block;
+        height: 260px;
+        overflow: hidden;
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+    .socialmedia
+    {
+        margin-top: 64px;
+
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px)
+{
+    .header
+    {
+        font-size: 14px;
+        height: 80px;
+        padding: 24px 0 0;
+        
+            
+    }
+    
+    .mnheading
+    {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+    
+    .subhding
+    {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+    
+    .about
+    {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+    
+    .socialmedia
+    {
+        margin-top: 60px;
+
+    }
+    .socialmedia li
+    {
+        font-size: 20px;
+        padding: 12px;
+        margin: 0 0 24px 0;
+    }
+    
+    .Mobile_dp
+    {
+        display: block;
+        height: 180px;
+        overflow: hidden;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+}
