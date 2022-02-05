@@ -57,8 +57,9 @@ body{
     {
         font-size: 40px;
         font-family: 'Manrope', sans-serif;
-        font-weight: bolder;
+        font-weight: 800;
         margin-top: 75px;
+        color: black;
     }
 
 
@@ -67,9 +68,9 @@ body{
     {
         font-family: 'Manrope', sans-serif;
         font-size: 22px;
-        color: #177FF8;
+        color: rgba(0, 0, 0, 0.75);
         margin-top: 32px;
-        font-weight: 400;
+        font-weight: 600;
     }
 
 
@@ -116,11 +117,12 @@ body{
     {
         background-color: #177FF8;
         padding: 12px 16px;
-        border-radius: 3px;
+        border-radius: 4px;
         color: white;
         font-family: 'Manrope', sans-serif;
         font-size: 16px;
         margin-right: 12px;
+        font-weight: 600;
     }
 
 .mail a:hover
@@ -143,19 +145,22 @@ body{
     {
         background-color: #fff;
         padding: 12px 16px;
-        border-radius: 3px;
-        color: black;
+        border-radius: 4px;
+        color: hsl(0, 0%, 35%);
         font-family: 'Manrope', sans-serif;
         font-size: 16px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border: 1.5px solid rgba(0, 0, 0, 0.1);
+        font-weight: 5  00;
+        font-weight: 500;
     }
 
 
 .resume a:hover
     {
         text-decoration: none;
-        color: black;
-        background-color: rgba(0, 0, 0, 0.05);
+        color: rgb(23, 127, 248);
+        background-color: rgba(23, 127, 248, 0.05);
+        border-color: rgba(23, 127, 248, 0.4);
 
     }
 
