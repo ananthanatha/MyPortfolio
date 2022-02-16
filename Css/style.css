@@ -16,7 +16,7 @@ body{
         font-family: 'Manrope', sans-serif;
         font-size: 18px;
         height: 100px;
-        padding: 48px 0px 25px 0px;
+        padding: 48px 0px 25px 10px;
         letter-spacing: .5px;
         color: #000;
         text-decoration: none;
@@ -42,7 +42,7 @@ body{
     }
 */
 
-.Mobile_dp
+.responsive_profile
 {
     display: none;
     
@@ -51,9 +51,12 @@ body{
     {
         padding: 0px !important;
     }
+.main-content
+{
+    padding: 0 16px;
+}
 
-
-.mnheading
+.mainheading
     {
         font-size: 40px;
         font-family: 'Manrope', sans-serif;
@@ -68,7 +71,7 @@ body{
     {
         font-family: 'Manrope', sans-serif;
         font-size: 22px;
-        color: rgba(0, 0, 0, 0.75);
+        color: rgba(0, 0, 0, 0.85);
         margin-top: 32px;
         font-weight: 600;
     }
@@ -80,7 +83,7 @@ body{
         font-family: 'Manrope', sans-serif;
         letter-spacing: 0.34px;
         font-size: 18px;
-        color: rgba(0, 0, 0, 0.65);
+        color: rgba(0, 0, 0, 0.75);
         font-weight: 400;
         line-height: 2;
     }
@@ -88,14 +91,14 @@ body{
 
     .about a
     {
-      color: rgba(0, 0, 0, 0.65);
+      color: rgba(0, 0, 0, 0.75);
     }
 
     
 
     .about a:hover
     {
-        color: black;
+        color: #177FF8;
     }
 
    
@@ -123,6 +126,7 @@ body{
         font-size: 16px;
         margin-right: 12px;
         font-weight: 600;
+        text-decoration: none;
     }
 
 .mail a:hover
@@ -152,6 +156,7 @@ body{
         border: 1.5px solid rgba(0, 0, 0, 0.1);
         font-weight: 5  00;
         font-weight: 500;
+        text-decoration: none;
     }
 
 
@@ -214,7 +219,7 @@ body{
         color: #0076ff;
     }
 
-.DP
+.profile
     {
         height: 100%;
     }
@@ -229,7 +234,7 @@ body{
         padding: 32px 0;
     }
     
-    .DP
+    .profile
     {
         display: none;
     }
@@ -239,7 +244,7 @@ body{
         width: 100% !important;
         text-align: center;
     }
-    .mnheading
+    .mainheading
     {
         margin-top: 48px;
     }
@@ -248,7 +253,7 @@ body{
         justify-content: center;
     }
     
-    .Mobile_dp
+    .responsive_profile
     {
         display: block;
         height: 260px;
@@ -265,6 +270,14 @@ body{
 
 }
 
+@media (min-width: 768px) {
+.responsive_profile
+    {
+        height: 420px;
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 375px)
 {
     .header
@@ -276,7 +289,7 @@ body{
             
     }
     
-    .mnheading
+    .mainheading
     {
         font-size: 36px;
         margin-top: 40px;
@@ -306,7 +319,7 @@ body{
         margin: 0 0 24px 0;
     }
     
-    .Mobile_dp
+    .responsive_profile
     {
         display: block;
         height: 180px;
